@@ -1,5 +1,5 @@
 # Project Summary
-This project builds a complete analytics foundation for an e‑commerce business with Kaggle data from Maven Analytics website, by transforming raw transactional and web‑behavior data into a structured, insight‑driven model. Using six core datasets; orders, order items, refunds, products, website sessions, and pageviews, the project designs a tailored star schema and develops clean fact and dimension tables that unify the customer journey from first website visit to purchase and potential refund. A full SQL analytics roadmap guides the creation of revenue, product, marketing, funnel, and customer‑behaviour analyses. The project also delivers reusable SQL views to support dashboards and ongoing KPI monitoring, enabling clear visibility into traffic quality, conversion performance, product profitability, and refund impact. The result is a scalable, end‑to‑end analytics layer that supports decision‑making across marketing, product, finance, and operations.
+This project builds a complete analytics foundation for an e‑commerce business (Fuzzy Factory) with Kaggle data from Maven Analytics website, by transforming raw transactional and web‑behavior data into a structured, insight‑driven model. Using six core datasets; orders, order items, refunds, products, website sessions, and pageviews, the project designs a tailored star schema and develops clean fact and dimension tables that unify the customer journey from first website visit to purchase and potential refund. A full SQL analytics roadmap guides the creation of revenue, product, marketing, funnel, and customer‑behaviour analyses. The project also delivers reusable SQL views to support dashboards and ongoing KPI monitoring, enabling clear visibility into traffic quality, conversion performance, product profitability, and refund impact. The result is a scalable, end‑to‑end analytics layer that supports decision‑making across marketing, product, finance, and operations.
 
 ### Average Order Value
 <img width="1354" height="699" alt="image" src="https://github.com/user-attachments/assets/44db7f8f-00c0-41fd-8f56-bcb2dd5cbe28" />
@@ -41,10 +41,9 @@ quality, expectations, or customer satisfaction despite moderate sales volume.Th
 the highest sales (24,226 units) but also has a relatively high refund rate (5.11%), which could significantly 
 impact revenue due to volume.The Forever Love Bear shows a moderate refund rate (2.23%), suggesting better 
 product performance and customer satisfaction.The Hudson River Mini Bear has the lowest refund rate (1.28%), 
-making it the most reliable product in terms of customer retention and satisfaction.
-#### Key Insight
-High-volume products with high refund rates (Mr. Fuzzy) present the biggest financial risk, while low refund 
-rate products (Hudson River Mini Bear) indicate strong product-market fit.
+making it the most reliable product in terms of customer retention and satisfaction. High-volume products with 
+high refund rates (Mr. Fuzzy) present the biggest financial risk, while low refund rate products (Hudson River Mini Bear) 
+indicate strong product-market fit.
 
 ### Refund Impact on Profitability, Net margin after refunds (order-level)
 <img width="1363" height="702" alt="image" src="https://github.com/user-attachments/assets/157c976d-3ad4-4aea-904e-bb43bd1e33bc" />
